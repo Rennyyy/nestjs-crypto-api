@@ -1,0 +1,15 @@
+# dependencies / build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# local config and secrets
+.env
+keys/*.pem
+
+# logs / OS / editor
+*.log
+.DS_Store
+.idea/
+.vscode/
