@@ -32,7 +32,7 @@ export class DecryptionFailedError extends Error {
 
 @Injectable()
 export class CryptoService {
-  constructor(@Inject(RSA_KEYS) private readonly keys: RsaKeys) { }
+  constructor(@Inject(RSA_KEYS) private readonly keys: RsaKeys) {}
 
   encrypt(payload: string): EncryptedData {
     const aesKey = this.generateAesKey();

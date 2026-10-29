@@ -9,8 +9,8 @@ Swagger docs for both APIs are served at **`/api-docs`**.
 
 ## Requirements
 
-- Node.js 20+
-- npm 10+
+- Node.js 24+ (run `nvm use` to pick up the version from `.nvmrc`)
+- npm 11+
 
 ## How to start the service
 
